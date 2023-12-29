@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+background-color: var(--maincolor);
+
+
+*{font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+:root{
+
+    --maincolor: rgb(179,113,13);
+}
+
+.logo{font-family: 'Satisfy', cursive;
+        font-size: 45px;
+        position: absolute;
+        padding-left:30px;
+        color: white;
+}
+
+
+
+header{
+    position:absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.topnav{
+    float:right;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.topnav a{
+
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+ .topnav a:hover{border-top: 2px solid var(--maincolor);
+    border-bottom: 2px solid var(--maincolor);}  
+
+
+
+.intro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.455)),
+    url("./header.jpg");
+    height: 700px;
+    display: flex;
+    background-size:cover;
+    justify-content:center;
+    margin-top: 0px;
+}
+
+.intro-text{
+    text-align:center;
+    font-size: 55px;
+    color: white;
+    margin-top: 260px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+button{
+    background-color: var(--maincolor);
+    padding: 10px;
+    text-align: center;
+    color:white;
+    border: none;
+    border-radius: 4rem;
+
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+
+}
